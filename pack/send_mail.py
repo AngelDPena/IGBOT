@@ -9,20 +9,17 @@ from time import sleep
 
 def send(mail):
     print(" ")
-    # input(str("Ingrese su gmail para enviar datos: "))
-    email_user = ""
-    # getpass_ak.getpass("Ingrese su contraseña: ")
-    email_password = pw.pw()
-    #input(str("Ingrese el correo del destinatario: "))
-    email_send = mail
-    subject = 'Lista personalizada'
+    email_user = input(str("Enter sender gmail: "))
+    email_password = pw.pw() # getpass_ak.getpass("Enter your password: ")
+    email_send = mail #input(str("Enter destination email: "))
+    subject = 'Custom list'
 
     msg = MIMEMultipart()
     msg['From'] = email_user
     msg['To'] = email_send
     msg['Subject'] = subject
 
-    body = '¡Esta es la lista de memes!'
+    body =  "Here's your list!"
     msg.attach(MIMEText(body, 'plain'))
 
     filename = 'info.txt'
@@ -41,5 +38,5 @@ def send(mail):
 
     server.sendmail(email_user, email_send, text)
     server.quit()
-    print("Operación completada con éxito!")
+    print("Operation successful!")
     sleep(2)
