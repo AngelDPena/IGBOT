@@ -28,6 +28,6 @@ ____Procedure to run the program____
         executable_path = C:\chromedriver_win32\chromedriver.exe)
    It should be in an accessible folder
    
-5- Add a gmail and password on the pack folder on send_email.py and pw.py 
+5- Add a gmail and password /pack folder on send_email.py and pw.py 
    
 6- Enjoy!
