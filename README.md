@@ -1,12 +1,12 @@
 # IGBOT v2.0
 This bot scrapes the web. It requires your Instagram credentials and logs into your account and looks for information on a specified IG profile. Then, it copies links, dumps them into a .txt file and sends an email. 
 
-----------------------------DISCLAIMER------------------------------
+----------------------------------------------------------------------DISCLAIMER-------------------------------------------------------------------
 
 All actions are visible on screen on start.
 All actions performed by this program are under your responsability. 
 
-----------------------------DISCLAIMER------------------------------
+---------------------------------------------------------------------DISCLAIMER-------------------------------------------------------------------
 
 
 ____Procedure to run the program____
