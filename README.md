@@ -6,7 +6,7 @@ This bot scrapes the web. It requires your Instagram credentials and logs into y
 All actions are visible on screen on start.
 All actions performed by this program are under your responsability. 
 
----------------------------------------------------------------------DISCLAIMER-------------------------------------------------------------------
+----------------------------------------------------------------------DISCLAIMER-------------------------------------------------------------------
 
 
 ____Procedure to run the program____
